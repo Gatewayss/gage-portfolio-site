@@ -2,4 +2,26 @@
     box-sizing: content-box;
   }
 
-  
+  img {
+    height: 300px; 
+    width: 0 auto; 
+  }
+
+  img:first-of-type {
+    padding-right: 15px;
+  }
+
+  .image-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+   @media screen and (min-width: 1399px) {
+    .image-container {
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
