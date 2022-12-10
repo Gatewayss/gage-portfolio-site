@@ -9,10 +9,8 @@
   }
 
   img:hover {
-    
     animation-name: glow;
     animation-duration: 1s;
-    
   }
 
   .image-container {
@@ -34,6 +32,8 @@
     .image-container {
       align-items: center;
       justify-content: center;
+    } img {
+      margin-right: 10px;
     }
   }
 
