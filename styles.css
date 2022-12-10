@@ -7,10 +7,6 @@
     width: 0 auto; 
   }
 
-  img:first-of-type {
-    padding-right: 15px;
-  }
-
   .image-container {
     display: flex; 
     justify-content: space-between;
@@ -23,5 +19,13 @@
       align-items: center;
       justify-content: center;
     }
+  }
 
+  @media screen and (max-width: 1199px){
+    .image-container {
+      align-items: center;
+      justify-content: space-around;
+    } img {
+      margin-bottom: 15px;
+    }
   }
