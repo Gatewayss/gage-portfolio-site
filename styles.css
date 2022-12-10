@@ -14,6 +14,14 @@
     flex-wrap: wrap;
   }
 
+  .nav-item {
+    margin-top: 5px; 
+  }
+
+  .nav-item:first-of-type {
+    padding: 0 10px 0 0;
+  }
+
    @media screen and (min-width: 1399px) {
     .image-container {
       align-items: center;
