@@ -1,4 +1,4 @@
-# Gage Norton
+# Gage Norton Portfolio 
 
 ## Description 
 This portfolio site contains all the projects I've completed, contact info and a about me section. 
