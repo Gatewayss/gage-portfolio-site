@@ -2,6 +2,8 @@
     box-sizing: content-box;
   }
 
+  /* stylings for project and profile images */ 
+
   .image-container {
     display: flex; 
     justify-content: space-between;
@@ -26,6 +28,8 @@
     border-radius: 10px;
   }
 
+  /* navbar link styling */
+
   .nav-item {
     margin-top: 5px; 
   }
@@ -37,6 +41,8 @@
   li a {
     text-decoration: none;
   }
+
+  /* footer/ contact info section */
 
   .social-icon {
     padding: 0px 3px 0px 3px;
@@ -51,6 +57,8 @@
     padding: 20px; 
     font-size: 1.4em;
   }
+
+  /* responsive media queries for xxl screens */
 
    @media screen and (min-width: 1399px) {
     .image-container {
@@ -70,6 +78,8 @@
     }
   }
 
+  /* CSS glow effect over projects */
+  
   @keyframes glow {
     0% {
       box-shadow: 0px 0px 15px 10px #9ec5fe;
