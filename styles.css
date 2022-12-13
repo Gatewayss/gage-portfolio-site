@@ -2,6 +2,13 @@
     box-sizing: content-box;
   }
 
+  .image-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
   .image-container img {
     height: 300;
     width: auto;
@@ -19,19 +26,8 @@
     border-radius: 10px;
   }
 
-  .image-container {
-    display: flex; 
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-
   .nav-item {
     margin-top: 5px; 
-  }
-
-  .social-icon {
-    padding: 0px 3px 0px 3px;
   }
 
   ul {
@@ -42,6 +38,10 @@
     text-decoration: none;
   }
 
+  .social-icon {
+    padding: 0px 3px 0px 3px;
+  }
+
   footer {
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +50,6 @@
   footer ul li {
     padding: 20px; 
     font-size: 1.4em;
-    
   }
 
    @media screen and (min-width: 1399px) {
