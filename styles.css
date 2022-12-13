@@ -32,7 +32,6 @@
 
   .social-icon {
     padding: 0px 3px 0px 3px;
-    height: 50px; 
   }
 
   ul {
@@ -41,6 +40,17 @@
 
   li a {
     text-decoration: none;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer ul li {
+    padding: 20px; 
+    font-size: 1.4em;
+    
   }
 
    @media screen and (min-width: 1399px) {
