@@ -42,6 +42,13 @@
     text-decoration: none;
   }
 
+  .move {
+    display: flex;
+    padding-left: 5%;
+    align-items: flex-start;
+    margin-right: 15%;
+  }
+
   /* footer/ contact info section */
 
   .social-icon {
@@ -59,6 +66,14 @@
   }
 
   /* responsive media queries for xxl screens */
+  @media screen and (max-width: 767px) {
+    .move {
+      display: block; 
+      align-content: center;
+      padding: 0;
+      margin-right: 10%;
+    } 
+  }
 
    @media screen and (min-width: 1399px) {
     .image-container {
