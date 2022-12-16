@@ -11,7 +11,7 @@
     flex-wrap: wrap;
   }
 
-  .image-container img {
+  .image-container > img {
     height: 300;
     width: auto;
     border-radius: 10px; 
@@ -68,7 +68,7 @@
   }
 
   /* about me section for sm screens */
-  
+
   @media screen and (max-width: 767px) {
     .move {
       display: block; 
