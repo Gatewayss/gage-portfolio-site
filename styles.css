@@ -11,25 +11,17 @@
     flex-wrap: wrap;
   }
 
-  /* new code */
   .image {
-      height: 300px;
-      width: auto;
-      border-radius: 10px; 
-    }
-
-    img {
-      height: 300px;
-      width: auto;
-      border-radius: 10px; 
-    }
+    border-radius: 10px;
+    height: 300px;
+  }
 
   .image:hover {
     animation-name: glow;
     animation-duration: 1s;
   }
 
-  img:last-of-type {
+  .image:last-of-type {
     height: 300px;
     width: auto 0; 
     border-radius: 10px;
