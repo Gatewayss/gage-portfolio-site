@@ -21,7 +21,7 @@
     animation-duration: 1s;
   }
 
-  .image:last-of-type {
+  img:last-of-type {
     height: 300px;
     width: auto 0; 
     border-radius: 10px;
