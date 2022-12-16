@@ -11,7 +11,7 @@ N/A
 
 ## Links
 
-Deployed application:  
+Deployed application: https://gatewayss.github.io/gage-portfolio-site/
 
 ## License
 
