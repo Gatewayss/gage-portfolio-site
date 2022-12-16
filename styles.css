@@ -13,24 +13,18 @@
 
   /* new code */
   .image {
-      height: 300;
+      height: 300px;
       width: auto;
       border-radius: 10px; 
     }
 
     img {
-      height: 300;
+      height: 300px;
       width: auto;
       border-radius: 10px; 
     }
 
-  .image-container img {
-    height: 300;
-    width: auto;
-    border-radius: 10px; 
-  }
-
-  .image-container img:hover {
+  .image:hover {
     animation-name: glow;
     animation-duration: 1s;
   }
@@ -86,7 +80,7 @@
     .move {
       display: block; 
       align-content: center;
-      padding: 0;
+      padding: 0px;
       margin-right: 10%;
     } 
   }
