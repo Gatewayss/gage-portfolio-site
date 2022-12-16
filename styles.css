@@ -11,7 +11,20 @@
     flex-wrap: wrap;
   }
 
-  .image-container > img {
+  /* new code */
+  .image {
+      height: 300;
+      width: auto;
+      border-radius: 10px; 
+    }
+
+    img {
+      height: 300;
+      width: auto;
+      border-radius: 10px; 
+    }
+
+  .image-container img {
     height: 300;
     width: auto;
     border-radius: 10px; 
